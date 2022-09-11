@@ -1,0 +1,46 @@
+// SWAMI KARUPPASWAMI THUNNAI
+
+.platinum-avatar {
+    border-radius: 50%;
+}
+
+.platinum-image-responsive {
+    height: auto;
+    max-width: 100%;
+}
+
+.platinum-flipable-image {
+    display: block;
+}
+
+.platinum-flipable-image-content {
+    display: none;
+}
+
+.platinum-flipable-image:hover > img {
+    animation-name: flip-animation;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+.platinum-flipable-image:hover .platinum-flipable-image-content {
+    display: block;
+}
+
+@keyframes flip-animation {
+    0% {
+        transform: rotateY(180deg);
+    }
+    20% {
+        opacity: 0.7;
+    }
+    30% {
+        opacity: 0.6;
+    }
+    40% {
+        opacity: 0.5;
+    }
+    100% {
+        visibility: hidden;        
+    }
+}

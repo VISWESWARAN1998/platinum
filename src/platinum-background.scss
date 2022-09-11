@@ -1,0 +1,47 @@
+// SWAMI KARUPPASWAMI THUNNAI
+
+@use "platinum-color";
+
+.platinum-bg-primary {
+    background-color: platinum-color.$default-primary;
+}
+
+.platinum-bg-primary-selected {
+    background-color: platinum-color.$default-primary-selected;
+}
+
+.platinum-bg-secondary {
+    background-color: platinum-color.$default-secondary;
+}
+
+.platinum-bg-secondary-selected {
+    background-color: platinum-color.$default-secondary-selected;
+}
+
+.platinum-bg-warning {
+    background-color: platinum-color.$default-warning;
+}
+
+.platinum-bg-warning-selected {
+    background-color: platinum-color.$default-warning-selected;
+}
+
+.platinum-bg-error {
+    background-color: platinum-color.$default-error;
+}
+
+.platinum-bg-error-selected {
+    background-color: platinum-color.$default-error-selected;
+}
+
+.platinum-bg-success {
+    background-color: platinum-color.$default-success;
+}
+
+.platinum-bg-success-selected {
+    background-color: platinum-color.$default-success-selected;
+}
+
+.platinum-bg-dark {
+    background-color: platinum-color.$default-dark;
+}

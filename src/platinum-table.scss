@@ -1,0 +1,23 @@
+// SWAMI KARUPPASWAMI THUNNAI
+
+
+.platinum-table-border {
+    border: thin solid black;
+    border-collapse: collapse;
+}
+
+.platinum-table-border > thead > tr > th {
+    border: thin solid black;
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+.platinum-table-border > tbody > tr > td {
+    border: thin solid black;
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+.platinum-table-striped > tbody > tr:nth-child(even) {
+    background-color: #eeeeee;
+}

@@ -1,0 +1,73 @@
+// SWAMI KARUPPASWAMI THUNNAI
+
+@use 'platinum-color';
+
+%platinum-input {
+    border-radius: 2px;
+    font-size: medium;
+    border-width: 1px;
+    border-style:solid;
+    border-color: #bdbdbd;
+    font-family: 'Roboto';
+    padding: 8px;
+}
+
+.platinum-input-primary{
+    @extend %platinum-input;
+    // border-color: platinum-color.$default-primary;
+}
+
+input.platinum-input-primary:focus{
+    outline: none !important;
+    border-color: platinum-color.$default-primary-selected;
+    border-width: 1px;
+    box-shadow: 0 0 4px 0 platinum-color.$default-primary-selected;
+}
+
+.platinum-input-secondary{
+    @extend %platinum-input;
+    // border-color: platinum-color.$default-secondary;
+}
+
+input.platinum-input-secondary:focus{
+    outline: none !important;
+    border-color: platinum-color.$default-secondary-selected;
+    border-width: 1px;
+    box-shadow: 0 0 4px 0 platinum-color.$default-secondary-selected;
+}
+
+.platinum-input-warning{
+    @extend %platinum-input;
+    // border-color: platinum-color.$default-warning;
+}
+
+input.platinum-input-warning:focus{
+    outline: none !important;
+    border-color: platinum-color.$default-warning-selected;
+    border-width: 1px;
+    box-shadow: 0 0 4px 0 platinum-color.$default-warning-selected;
+}
+
+.platinum-input-error{
+    @extend %platinum-input;
+    // border-color: platinum-color.$default-error;
+}
+
+input.platinum-input-error:focus{
+    outline: none !important;
+    border-color: platinum-color.$default-error-selected;
+    border-width: 1px;
+    box-shadow: 0 0 4px 0 platinum-color.$default-error-selected;
+}
+
+.platinum-input-success{
+    @extend %platinum-input;
+    // border-color: platinum-color.$default-success;
+}
+
+input.platinum-input-success:focus{
+    outline: none !important;
+    border-color: platinum-color.$default-success-selected;
+    border-width: 1px;
+    box-shadow: 0 0 4px 0 platinum-color.$default-success-selected;
+}

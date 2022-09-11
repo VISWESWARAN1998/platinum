@@ -1,0 +1,13 @@
+// SWAMI KARUPPASWAMI THUNNAI
+
+.platinum-card {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.platinum-card-scale:hover {
+    transform: scale(1.01);
+}

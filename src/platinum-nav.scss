@@ -1,0 +1,39 @@
+// SWAMI KARUPPASWAMI THUNNAI
+
+@use 'platinum-color';
+
+%platinum-navbar
+{
+    padding: 10px;
+}
+
+.platinum-navbar-primary
+{
+    @extend %platinum-navbar;
+    background-color: platinum-color.$default-primary;
+}
+
+.platinum-navbar-dark
+{
+    @extend %platinum-navbar;
+    background-color: platinum-color.$default-dark;
+}
+
+.platinum-nav-item
+{
+    color: white;
+    font-size: large;
+    font-family: 'Roboto';
+    text-decoration: none;
+    padding: 10px;    
+}
+
+.platinum-nav-item:hover
+{
+    background-color: rgb(0, 0, 0, 0.2);
+}
+
+.platinum-nav-item-selected
+{
+    font-weight: 600;
+}

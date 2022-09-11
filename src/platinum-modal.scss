@@ -1,0 +1,67 @@
+// SWAMI KARUPPASWAMI THUNNAI
+
+.platinum-modal {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    background-color: rgb(0,0,0,0.2);
+}
+
+%platinum-modal-shadow {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+@keyframes modal-movement-top {
+      0% {
+        transform: translate(0, 0);
+      }
+      100% {
+        transform: translate(0, 2%);
+      }
+}
+
+@keyframes modal-movement-center {
+    0% {
+        transform: translate(0, 0);
+    }
+    100% {
+        transform: translate(0, 50%);
+    }
+}
+
+.platinum-modal-dialog-sm {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    left: 0;
+    right: 0;
+    min-height: 20%;
+    width: 30%;
+    padding: 20px;
+    background-color: white; 
+    @extend %platinum-modal-shadow;   
+}
+
+.platinum-dialog-top {
+    animation: modal-movement-top 0.2s;
+    animation-fill-mode: forwards;    
+}
+
+.platinum-dialog-center {
+    animation: modal-movement-center 0.5s;
+    animation-fill-mode: forwards;    
+}
+
+.platinum-modal-dialog-fullscreen {
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    position: absolute;
+    background-color: white;
+}

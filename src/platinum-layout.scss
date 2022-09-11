@@ -1,0 +1,28 @@
+// SWAMI KARUPPASWAMI THUNNAI
+
+@media (min-width: 801px) {
+    .platinum-row {
+        flex-direction: row;
+        display: flex;
+    }
+}
+
+@media (max-width: 600px) {
+    .platinum-row {
+        flex-direction: column;
+        display: flex;
+    }
+}
+
+.platinum-row-right {
+    justify-content: flex-end;
+}
+
+.platinum-row-center {
+    justify-content: center;
+}
+
+.platinum-row-sb {
+    justify-content: space-between;
+}
+
